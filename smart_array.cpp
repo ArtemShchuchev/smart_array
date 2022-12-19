@@ -9,7 +9,8 @@ int main()
 
 	try
 	{
-		SmartArr arr(3);
+		SmartArr arr(12);
+		//SmartArr arr2 = arr;
 		arr.add(1);
 		arr.add(4);
 		arr.add(155);

@@ -8,7 +8,10 @@ private:
 	int capacity_;	// ёмкость массива
 public:
 	SmartArr(int capacity);
+	SmartArr(const SmartArr&) = delete;	// конструктор копирования, запрещен
 	~SmartArr();
+
+	SmartArr& operator=(const SmartArr&) = delete; // оператор перемещения, запрещен
 	void add(int element);
 	int get(int index);
 };
