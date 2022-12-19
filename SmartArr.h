@@ -11,7 +11,7 @@ public:
 	SmartArr(const SmartArr&) = delete;	// конструктор копирования, запрещен
 	~SmartArr();
 
-	SmartArr& operator=(const SmartArr&) = delete; // оператор перемещения, запрещен
+	SmartArr& operator=(const SmartArr&) = delete; // оператор присваивания, запрещен
 	void add(int element);
 	int get(int index);
 };
